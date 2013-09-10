@@ -6,17 +6,18 @@ upset that like other frameworks it abuses constructors to build something that
 remotely resembles classes known from languages such as C++ or Java. I was
 thinking: Wouldn't it be possible to build a true class system in JavaScript?
 
-What you find here is a proof of concept, hacky, buggy, incomplete, and not
-very elegant!
+**Ugly'n'buggy**: What you find here is a proof of concept, hacky, buggy,
+incomplete, and not elegant, not at all.
 
 Anyhow, with some effort, it should be straight forward to build an arbitrarily
 complex class system in JavaScript, with true private and protected members,
 with friends, multiple inheritance, and all the things you love and hate from
-languages such as C++. What is missing, of course, is strong typing, which goes
-hand in hand with classes in C++.
+languages such as C++. What is missing, of course, is strong type system, which
+goes hand in hand with classes in C++.
 
-I don't intend to spend more time on this, as I actually *enjoy* the liberty
-that comes with not having classes and strong typing built into JavaScript.
+I don't intend to spend more time on this, as I actually enjoy the liberty that
+comes with *not* having a class and strong type system built into JavaScript.
+If I want that, then I use other languages.
 
 Felix E. Klee <felix.klee@inka.de>
 
